@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #06949e;
+}
+body {
+    background-color: #DEFDFF;
+    height: 100vh;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "Kalam", cursive;
+    font-size: 3em;
+    color: #06949e;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  20px;
+    min-height: 50px;
+} 
+ul,li{
+    list-style: none;
+    font-size: 1.2rem;
+    
+}
+
+div {
+    height: 25rem;
+    width: 25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #8AF0F8;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 8px;
+  }
+
+p{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 12px;
+    background-color: #DEFDFF;
+}
+
+footer{
+    color: #06949e;
+    margin-top: 12em;
+    margin-bottom: 0px;
+    background-color: #8AF0F8;
+    
+}
+a{
+    text-decoration: none;
+    color: #1DB9C4;
+}
+.menu{
+    display:flex;
+}
+.menu li{
+    margin-left: 20px;
+}
+.menu li a{
+    padding: 5px;
+
+}
